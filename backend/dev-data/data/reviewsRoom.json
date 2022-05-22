@@ -1,0 +1,38 @@
+[
+  {
+    "review": "Cras mollis nisi parturient mi nec aliquet suspendisse sagittis eros condimentum scelerisque taciti mattis praesent feugiat eu nascetur a tincidunt",
+    "rating": 4.9,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "room": "6148b6ca33e10624448bd6b8"
+  },
+  {
+    "review": "Tempus curabitur faucibus auctor bibendum duis gravida tincidunt litora himenaeos facilisis vivamus vehicula potenti semper fusce suspendisse sagittis!",
+    "rating": 3.7,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "room": "6148b6ca33e10624448bd6b8"
+  },
+  {
+    "review": "Convallis turpis porttitor sapien ad urna efficitur dui vivamus in praesent nulla hac non potenti!",
+    "rating": 4.1,
+    "user": "5c8a24822f8fb814b56fa192",
+    "room": "6148b6ca33e10624448bd6ba"
+  },
+  {
+    "review": "Habitasse scelerisque class quam primis convallis integer eros congue nulla proin nam faucibus parturient.",
+    "rating": 4,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "room": "6148b6ca33e10624448bd6bd"
+  },
+  {
+    "review": "Cras consequat fames faucibus ac aliquam dolor a euismod porttitor rhoncus venenatis himenaeos montes tristique pretium libero nisi!",
+    "rating": 4.3,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "room": "6148b6ca33e10624448bd6c0"
+  },
+  {
+    "review": "Laoreet justo volutpat per etiam donec at augue penatibus eu facilisis lorem phasellus ipsum tristique urna quam platea.",
+    "rating": 4.5,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "room": "6148b6ca33e10624448bd6c2"
+  }
+]
