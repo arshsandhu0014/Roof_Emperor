@@ -1,0 +1,84 @@
+.home-content-main {
+  margin-top: 3rem;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  padding: 4rem;
+}
+
+.home-text {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.home-text h1 {
+  max-width: 70%;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.home-text h2 {
+  font-weight: 300;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.home-text p {
+  margin: 0 0 3.5vh 0;
+  font-size: 1.5rem;
+  max-width: 80%;
+}
+
+.home-content img {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.home-content-main .icons {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+.home-content-main .icons img {
+  width: 3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.home-image {
+  border-radius: 2rem;
+  box-shadow: 13px 16px 49px -26px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 13px 16px 49px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 16px 49px -26px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .home-content-main {
+    text-align: center;
+  }
+
+  .home-text {
+    height: 70vh;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .home-text h1 {
+    width: 100%;
+  }
+  .home-text h2 {
+  }
+  .home-text p {
+    margin: 0 2rem;
+  }
+
+  .home-image {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.map-main {
+  height: 57.5rem;
+  width: 30vw;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+}
+
+.infopage-map {
+  height: 28rem;
+  margin-bottom: 3.5vh;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  border: 1px solid whitesmoke;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .map-main {
+    height: 80vh;
+    width: auto;
+    border-radius: 2rem;
+  }
+}

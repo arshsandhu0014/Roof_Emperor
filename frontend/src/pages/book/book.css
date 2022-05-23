@@ -1,0 +1,55 @@
+.book-main {
+  text-align: center;
+}
+
+.terms-wrapper {
+  margin: 0 5rem;
+}
+
+.terms-text {
+  margin: 5rem 0;
+  text-align: start;
+}
+
+.pay-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(10, 56, 255, 1) 0%,
+    rgb(42, 117, 214) 100%
+  );
+  border: none;
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.pay:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(152, 171, 253) 0%,
+    rgb(42, 117, 214) 100%
+  );
+}
+
+.booked-msg {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booked-msg h2 {
+  margin-bottom: 5rem;
+}

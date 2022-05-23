@@ -1,0 +1,47 @@
+.book-visit-main {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  border: 1px solid whitesmoke;
+  flex: 1;
+  padding: 2rem 1vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+}
+
+.book-visit-main .options {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.view-section {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.view-book-button,
+.view-visit-button {
+  cursor: pointer;
+}
+
+.view-book-button:hover,
+.view-visit-button:hover {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .book-visit-main {
+    border-radius: 2rem;
+  }
+  .view-section {
+    margin-top: 2rem;
+    height: 15rem;
+  }
+}

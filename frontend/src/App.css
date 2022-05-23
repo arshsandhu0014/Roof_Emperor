@@ -1,0 +1,60 @@
+.circle1,
+.circle2,
+.circle3 {
+  z-index: -1;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1 {
+  background: rgba(0, 117, 255, 0.5);
+  top: -7rem;
+  left: -4rem;
+  width: 40rem;
+  height: 40rem;
+  filter: blur(10rem);
+}
+
+.circle2 {
+  background: #9e85b8;
+  bottom: -20rem;
+  left: 40rem;
+  width: 30rem;
+  height: 40rem;
+  filter: blur(10rem);
+}
+.circle3 {
+  background: #0075ff;
+  bottom: 20rem;
+  right: -1rem;
+  width: 20rem;
+  height: 30rem;
+  filter: blur(15rem);
+}
+
+.circle4,
+.circle5,
+.circle6 {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  width: 20rem;
+  height: 20rem;
+  z-index: -2;
+  border-radius: 50%;
+}
+
+.circle4 {
+  top: 15rem;
+  left: -5rem;
+}
+
+.circle5 {
+  bottom: -2rem;
+  left: 55rem;
+}
+
+.circle6 {
+  background: rgba(0, 117, 255, 0.38);
+  top: -3rem;
+  right: -5rem;
+}

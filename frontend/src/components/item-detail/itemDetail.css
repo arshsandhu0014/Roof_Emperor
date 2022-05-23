@@ -1,0 +1,128 @@
+.item-detail-main {
+  font-family: "Poppins", sans-serif;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-bottom: 1.4rem;
+  border: 1px solid whitesmoke;
+  display: flex;
+  box-shadow: 6px 5px 10px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 5px 10px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 5px 10px -8px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+.item-detail-main > p {
+  font-size: 1.1rem;
+  position: absolute;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 2rem;
+  left: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0.4rem 0.6rem;
+  letter-spacing: 1px;
+}
+
+.item-detail-main .pg-image {
+  width: 18vw;
+  height: 12vw;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-detail-main .text {
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.item-detail-main .buttons {
+  display: flex;
+  flex: 1;
+  padding: 1rem 1rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.item-detail-main .view-map {
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  background: linear-gradient(to bottom right, #6c6ef5, #0099e0);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 10rem;
+  height: 2.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.facilities > img:first-child {
+  margin-left: 2rem;
+}
+.facilities > img {
+  height: 2rem;
+  object-fit: contain;
+  margin: 0 0.5rem;
+}
+.item-detail-main .view-map:hover {
+  background: linear-gradient(to top right, #6c6ef5, #0034e0);
+}
+
+.item-detail-main .explore-pg {
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 11rem;
+  height: 3.3rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .item-detail-main {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+  } */
+
+  /* .item-detail-main .pg-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+  } */
+
+  /* .item-detail-main .text,
+  .facilities {
+    padding-left: 1rem;
+  } */
+
+  /* .item-detail-main .view-map {
+    display: none;
+  } */
+  /* .item-detail-main .buttons {
+    flex: 0;
+    justify-content: flex-end;
+    padding: 0;
+  } */
+  /* height: fit-content; */
+
+  /* .item-detail-main .explore-pg {
+    width: 7rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+  } */
+}

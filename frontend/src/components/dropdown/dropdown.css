@@ -1,0 +1,129 @@
+.dropdown-main {
+  background: rgb(255, 255, 250);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40rem;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 15px 5px -6px rgba(142, 142, 142, 0.36);
+  -webkit-box-shadow: 2px 15px 5px -6px rgba(142, 142, 142, 0.36);
+  -moz-box-shadow: 2px 15px 5px -6px rgba(142, 142, 142, 0.36);
+}
+
+.dropdown-main.hidden {
+  display: none;
+}
+
+.visitpage-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.phoneInput {
+  border: none;
+  width: 30vw;
+  margin-right: 3rem;
+  padding: 0.5rem 1rem;
+  font-family: "montserrat";
+  border-radius: 0.5rem;
+  box-shadow: 13px 10px 5px -6px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 13px 10px 5px -6px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 13px 10px 5px -6px rgba(0, 0, 0, 0.36);
+}
+
+.phoneInput:focus {
+  outline: none;
+}
+
+.input-submit-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Chrome, Safari, Edge, Opera  */
+.visitpage-main input::-webkit-outer-spin-button,
+.visitpage-main input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+.visitpage-main input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.visit-submit {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(10, 56, 255, 1) 0%,
+    rgb(42, 117, 214) 100%
+  );
+  border: none;
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.visit-submit:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 110, 255) 0%,
+    rgb(42, 117, 214) 100%,
+    rgba(10, 56, 255, 1) 0%
+  );
+}
+
+.request-recorded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.request-recorded h4 {
+  margin-right: 3rem;
+}
+
+.request-recorded button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(10, 56, 255, 1) 0%,
+    rgb(42, 117, 214) 100%
+  );
+  border: none;
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-submit-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .phoneInput {
+    width: 50vw;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  .visitpage-main h3 {
+    font-size: 4vw;
+    margin: 0 2rem;
+  }
+}

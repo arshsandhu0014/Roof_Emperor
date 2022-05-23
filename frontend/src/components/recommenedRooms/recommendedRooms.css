@@ -1,0 +1,34 @@
+.recommended-main {
+  height: 35rem;
+  width: 50rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  border: 1px solid whitesmoke;
+  margin-bottom: 3.5vh;
+  padding: 2rem 2vw;
+  box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+}
+
+.recommended-main h4 {
+  margin-bottom: 1.5rem;
+}
+
+.recommended-main h5 {
+  margin-bottom: 1rem;
+}
+.recommended-main h6 {
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .recommended-main {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    height: auto;
+  }
+  .recommended-main h6 {
+    font-size: 2vw;
+  }
+}

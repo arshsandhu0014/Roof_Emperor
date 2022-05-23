@@ -1,0 +1,74 @@
+.account-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.account-left {
+  height: 58rem;
+  width: auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  margin-right: 5rem;
+  display: flex;
+  flex: 1;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+}
+.account-list-main {
+  height: 58rem;
+  max-width: 40rem;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1.5rem 2vw;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.separator {
+  width: 50%;
+  height: 4px;
+  background-color: #843bc7;
+  margin: 24px auto;
+}
+
+.sidebar {
+  background-image: linear-gradient(to bottom right, #8b33c5, #15a0e1);
+  color: #fff;
+  padding: 2rem 0rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.sidebar li {
+  padding: 1rem 8rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  list-style: none;
+  transition: all 0.2s;
+}
+.sidebar li:hover {
+  border-left: 5px solid cyan;
+  transform: translateX(0.3rem);
+}
+.sidebar__active {
+  border-left: 5px solid cyan;
+}
+.profile__picBtn {
+  background-color: #15a0e1;
+  padding: 1rem;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+.profile__picBtn:hover {
+  background-color: #0789c5;
+}

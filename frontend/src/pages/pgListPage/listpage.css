@@ -1,0 +1,15 @@
+.listpage-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-map {
+    display: none;
+  }
+}
+
+.listImage {
+  width: 100%;
+  height: 100px;
+}

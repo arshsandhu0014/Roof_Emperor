@@ -1,0 +1,45 @@
+.facilities-main {
+  height: 54rem;
+  width: 20vw;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  border: 1px solid whitesmoke;
+  padding: 3rem 2vw;
+  text-align: center;
+  box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 27px -18px rgba(0, 0, 0, 0.75);
+}
+
+.facilities-main h4 {
+  margin-bottom: 4rem;
+}
+
+.facilities-main .facility {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.facilities-main .icons {
+  flex-basis: 33.333333%;
+}
+
+.facilities-main .icons img {
+  width: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .facilities-main {
+    border-radius: 2rem;
+    width: 100%;
+    padding: 2rem;
+  }
+  .facilities-main .icons img {
+    width: 4rem;
+  }
+  .facilities-main h6 {
+    font-size: 3vw;
+  }
+}
